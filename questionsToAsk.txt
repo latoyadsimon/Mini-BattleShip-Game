@@ -1,0 +1,55 @@
+//10/01/23  06:30 am
+I have completed part 1.
+
+Part 2 questions:
+
+I have figured out how to make a grid function that takes a number as an argument to produce my grid with that number, and the letters to "essentially" make a square.
+
+----gridBuilder(10);// returns a grid with a1 - j10. ----
+
+*I can not figure out how to make the multi unit ships that does not defy the logic of the grid:
+
+ex. of what im returning:
+[
+  [ 'b5', 'b6' ],
+  [ 'c7', 'c8', 'c9' ],
+  [ 'h8', 'h9', 'h10' ],
+  [ 'b5', 'b6', 'b7', 'b8' ],//it also repeats
+  [ 'f9', 'f10', 'g1', 'g2', 'g3' ]//f10, end of board
+]
+
+------
+*I do not understand how to make the random placements vertical and horizontal of the ships.
+---solved minimally
+//idea for ship vertical horizontal
+// one array with two arrays
+//array[0] has all letters that are the same ex:
+a1, a2, a3
+//array[1] has all numbers, ex:
+a1, b1, c1
+//function to make the vertical and horizontal array
+//randomizer to choose vertical or horizontal
+// then function to randomly choose the first space
+//validate that the ship does not go beyond the edges
+//push to the randomArray
+
+----was able to make a vertical and horizontal array
+---stopped a bit of the repeating as well.
+-----------------------------------------------
+10/02/2023
+-in part 2, how to get the coordinates from repeating with the new grid builder function.
+
+
+---------------------
+10/03/2023
+notes to save for later:
+some unicode symbols
+//a cow
+var str = '\uD83D\uDC04';
+console.log(str)
+
+var Omega = '\u03A9';
+console.log(Omega)
+
+let square = "\u22A1";
+console.log(square)
