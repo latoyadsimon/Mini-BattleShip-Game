@@ -1,14 +1,12 @@
 //10/10/23
 //Most current file for turn in
+
 var rs = require("readline-sync");
 
 let loadedBoard = [];
 let guessArray = [];
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz".toUpperCase().split("");
-
-//randomizer should put two values at chosen index into the random array
-let max = 3;
 
 const buildGrid = (max) => {
   const resArr = [];
@@ -21,6 +19,7 @@ const buildGrid = (max) => {
   return resArr;
 };
 
+const max = 3;
 const grid = buildGrid(max);
 const playerGame = grid.flat();
 
