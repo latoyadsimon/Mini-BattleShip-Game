@@ -1,1 +1,5 @@
+link to gitHub repo:
 https://github.com/latoyadsimon/Mini-BattleShip-Game.git
+
+link to medium article:
+https://medium.com/@1stforgottentoy/mini-battleship-console-game-tutorial-d55b7f481272
